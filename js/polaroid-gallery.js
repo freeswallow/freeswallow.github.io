@@ -5,7 +5,7 @@ var polaroidGallery = (function () {
     var navbarHeight = 60;
     var resizeTimeout = null;
     var xmlhttp = new XMLHttpRequest();
-    var url = "data/data.json";
+    var url = "data/beauty.json";
 
     function polaroidGallery() {
         observe();
